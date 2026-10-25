@@ -1,0 +1,20 @@
+{
+  "name": "ahromlabs-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Ahrom Labs' published guides: Indian ERP requirements, IBR 2026 boiler forms, interior BOQs, TallyPrime integration and AI assistants for business data.",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "ahromlabs-mcp": "index.js" },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/smoke.test.js"
+  },
+  "keywords": ["mcp", "model-context-protocol", "erp", "tallyprime", "ibr", "boq", "india"],
+  "homepage": "https://ahromlabs.com/agents",
+  "repository": { "type": "git", "url": "https://github.com/Ahrom-Labs/ahromlabs-mcp.git" },
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1"
+  }
+}
